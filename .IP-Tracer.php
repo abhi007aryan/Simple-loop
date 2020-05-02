@@ -18,6 +18,7 @@ function logo() {
 
    \033[01;37m}\033[01;31m----------------------------------------\033[01;37m{
 }\033[01;31m-------------- \033[01;32mTrack IPLocation\033[01;31m --------------\033[01;37m{
+}\033[01;31m-------------- \033[01;32mCoded by Abhi Aryan\033[01;31m --------------\033[01;37m{
    }\033[01;31m----------------------------------------\033[01;37m{
 
 \033[00m
@@ -29,7 +30,7 @@ function About() {
   echo <<<EOL
 
          \033[01;33mTool Name \033[01;37m:- \033[01;36mIP-Tracer
-         \033[01;33mAuthor \033[01;37m:- \033[01;36mRajkumar Dusad
+         \033[01;33mAuthor \033[01;37m:- \033[01;36mAbhi Aryan
          \033[01;33mPowered By \033[01;37m:- \033[01;36mAex Software's
 
  \033[01;33mIP-Tracer\033[01;32m is use \033[01;36mip-api \033[01;32mto retrive any ip address information. Our system will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
@@ -44,8 +45,8 @@ function upd() {
   logo();
   echo "\n\033[01;32mUpdating IP-Tracer.........\033[01;37m\n\n";
   sleep(1);
-  system("cd ~/ && git clone https://github.com/Rajkumrdusad/IP-Tracer.git");
-  system("cd ~/ && sudo git clone https://github.com/Rajkumrdusad/IP-Tracer.git");
+  system("cd ~/ && git clone https://github.com/abhi007aryan/IP-Tracer.git");
+  system("cd ~/ && sudo git clone https://github.com/abhi007aryan/IP-Tracer.git");
   system("cd ~/IP-Tracer && sh install");
   logo();
   echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
